@@ -1,12 +1,12 @@
 
-import Button from "./Button";
-import Buttonn from "./Buttonn";
+import Student from "./Student"
 function App() {
   
   return (
     <>
-     <Button />
-     <Buttonn />
+       <Student name="Alice"  age="20" grade="A"/>
+        <Student name="Bob"  age="22" grade="B"/>
+       
     </>
    
 

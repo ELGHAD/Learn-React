@@ -1,15 +1,22 @@
-.btn-outline {
-  padding: 10px 22px;
-  background: transparent;
-  border: 2px solid #007bff;
-  color: #007bff;
-  border-radius: 8px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: 0.3s ease;
+.student {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 1.6rem;
+  background: #ffffff;
+  padding: 16px 22px;
+  border-radius: 12px;
+  border: 1px solid hsla(0, 0%, 60%, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  margin-bottom: 20px;
+  transition: 0.25s ease;
 }
 
-.btn-outline:hover {
-  background: #007bff;
-  color: #fff;
+.student:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.12);
+}
+
+.student p {
+  margin: 0;
+  color: #333;
+  line-height: 1.4;
 }
