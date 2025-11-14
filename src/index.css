@@ -1,45 +1,15 @@
-/* Main Card */
-.card {
-  border: 1px solid hsl(0, 0%, 85%);
-  border-radius: 16px;
-  background: #ffffff;
-  padding: 24px;
-  margin: 15px;
-  max-width: 260px;
-  text-align: center;
-  display: inline-block;
-  transition: 0.25s ease;
-  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+.btn-outline {
+  padding: 10px 22px;
+  background: transparent;
+  border: 2px solid #007bff;
+  color: #007bff;
+  border-radius: 8px;
+  font-size: 16px;
   cursor: pointer;
+  transition: 0.3s ease;
 }
 
-.card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.14);
-  border-color: hsl(0, 0%, 75%);
-}
-
-/* Card Image (Round) */
-.card .card-image {
-  max-width: 60%;
-  height: auto;
-  border-radius: 50%;
-  margin-bottom: 12px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.12);
-}
-
-/* Card Title */
-.card .card-title {
-  font-size: 1.25rem;
-  font-weight: 600;
-  margin-bottom: 8px;
-  color: #222;
-}
-
-/* Card Description */
-.card .card-description {
-  font-size: 0.95rem;
-  color: #555;
-  line-height: 1.4;
-  padding: 0 10px;
+.btn-outline:hover {
+  background: #007bff;
+  color: #fff;
 }
